@@ -1,19 +1,32 @@
 .task1 .item {
+  position: absolute;
+  left: 200px;
+  top: 150px;
 }
 
 .task2 .item {
+  position: absolute;
+  left: calc(50% - 40px);
+  top: calc(50% - 40px);
 }
 
 .task3 .item {
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .container4 {
+  display: block;
 }
 
 .task4 {
   width: 1000px;
 }
 .task4 .item {
+  position: fixed;
+  top: 50%;
+  left: calc(50% - 40px);
 }
 
 .task5 .item1 {
@@ -26,26 +39,33 @@
 }
 
 .task6 .item {
+  float: left;
 }
 
 .task7 .item {
+  float: right;
 }
 
 .task8 .item1 {
+  float: none;
 }
 .task8 .item2 {
   height: 120px;
+  float: none;
 }
 
 .task8 p {
+  float: none;
 }
 
 .task9 .item1 {
   height: 200px;
 }
 .task9 .item2 {
+  float: left;
 }
 .task9 p {
+  float: none;
 }
 
 .task10 .item1 {
@@ -57,62 +77,116 @@
 
 .task11 .img-item {
   height: 100%;
-  width: 100%;
+  width: auto;
 }
 
 .task12 .img-item {
-  height: 100%;
   width: 100%;
+  object-fit: none;
 }
 
 .task13 .img-item {
   height: 100%;
   width: 100%;
+  /* вже є */
 }
 
 .task14 .img-item {
   height: 100%;
-  width: 100%;
+  width: auto;
 }
 
 .task15 .img-item {
   height: 100%;
   width: 100%;
   object-fit: none;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
 }
 
 .task16 .img-item {
   height: 100%;
   width: 100%;
   object-fit: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(0, -50%);
 }
 
 .task17 .img-item {
   height: 100%;
   width: 100%;
   object-fit: none;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  transform: translate(0, -50%);
 }
 
 .task18 .img-item {
   height: 100%;
   width: 100%;
   object-fit: none;
+  position: absolute;
+  left: 40px;
+  top: 25px;
 }
 
 .task19 .img-item {
   height: 100%;
   width: 100%;
   object-fit: none;
+  align-content: center;
+  vertical-align: middle;
 }
 
 .task20 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .task21 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select-none: none;
+  -moz-user-select-none: none;
+  -ms-user-select-none: none;
+  user-select-none: none;
 }
 
 .task22 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select-none: none;
+  -moz-user-select-none: none;
+  -ms-user-select-none: none;
+  user-select-none: none;
+
+  -webkit-text-decoration: none;
+  -moz-text-decoration: none;
+  -ms-text-decoration: none;
+  text-decoration: none;
+
+  cursor: pointer;
+  cursor: hand;
+
+  color: blue;
 }
 
 html {
+  cursor: pointer;
+  transition: scrollTop 0.5s ease-in-out;
 }
